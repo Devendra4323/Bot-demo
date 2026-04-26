@@ -1,4 +1,4 @@
-const { Bot } = require("grammy");
+const { Bot, webhookCallback, InputMediaBuilder } = require("grammy");
 
 // --- Configuration ---
 const TOKEN = "8084658963:AAGlqDAcOiRQ89CgYsPlRa256aiaTLKPgV8";
