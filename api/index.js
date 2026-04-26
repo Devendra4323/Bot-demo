@@ -94,6 +94,4 @@ bot.command("proof", async (ctx) => {
     }
 });
 
-// --- Start the Bot ---
-bot.start();
-console.log("✅ Node.js Bot is running...");
+module.exports = webhookCallback(bot, "http");
